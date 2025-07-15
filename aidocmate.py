@@ -3,7 +3,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv("C:/Users/dakshita.sharma/Desktop/Projects/medicine/Training.csv")
+df = pd.read_csv("Training.csv")
 
 
 # Remove duplicate rows
@@ -119,25 +119,25 @@ print("original label: " , y_test[0])
 # load datasets
 """
 
-symtoms_df = pd.read_csv("C:/Users/dakshita.sharma/Desktop/Projects/medicine/symtoms_df.csv")
+symtoms_df = pd.read_csv("symtoms_df.csv")
 symtoms_df.head(4)
 
-precautions_df = pd.read_csv("C:/Users/dakshita.sharma/Desktop/Projects/medicine/precautions_df.csv")
+precautions_df = pd.read_csv("precautions_df.csv")
 precautions_df.head(4)
 
-workout_df = pd.read_csv("C:/Users/dakshita.sharma/Desktop/Projects/medicine/workout_df.csv")
+workout_df = pd.read_csv("workout_df.csv")
 workout_df.head(4)
 
-description_df = pd.read_csv("C:/Users/dakshita.sharma/Desktop/Projects/medicine/description.csv")
+description_df = pd.read_csv("description.csv")
 description_df.head(4)
 
-medications_df = pd.read_csv("C:/Users/dakshita.sharma/Desktop/Projects/medicine/medications.csv")
+medications_df = pd.read_csv("medications.csv")
 medications_df.head(4)
 
-diets_df = pd.read_csv("C:/Users/dakshita.sharma/Desktop/Projects/medicine/diets.csv")
+diets_df = pd.read_csv("diets.csv")
 diets_df.head(4)
 
-doctor_df = pd.read_csv("C:/Users/dakshita.sharma/Desktop/Projects/medicine/Doctor.csv")
+doctor_df = pd.read_csv("Doctor.csv")
 doctor_df.head(4)
 
 unique_values = []
